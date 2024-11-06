@@ -1,0 +1,13 @@
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 104px);
+  padding: 20px;
+  background: linear-gradient(45deg, #f3ec78, #af4261);
+  background-size: 200% 200%; /* Makes the gradient smooth and continuous */
+  color: #e0e0e0;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  --bg-position: 0%; /* CSS variable for controlling background position */
+  background-position: var(--bg-position) center;
+}

@@ -1,0 +1,41 @@
+<div class="logo-wrapper" #logoWrapper>
+  <svg 
+  viewBox="0 0 120 120" 
+  width="120" 
+  height="120" 
+  xmlns="http://www.w3.org/2000/svg"
+  #logoWrapper
+  style="cursor: pointer;"
+>
+  <defs>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="2" dy="2" stdDeviation="2" flood-color="#000000" flood-opacity="0.3"/>
+    </filter>
+    
+    <radialGradient id="cloudGradient1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color: #ffffff; stop-opacity: 1" />
+      <stop offset="100%" style="stop-color: #e6e6e6; stop-opacity: 1" />
+    </radialGradient>
+  </defs>
+
+  <g class="logo-mark">
+    <!-- Animated Rectangle/Square -->
+    <rect 
+      class="animated-rect"
+      x="10" y="10" 
+      width="100" height="100" 
+      fill="url(#cloudGradient1)" 
+      filter="url(#shadow)"
+    />
+  </g>
+
+  <g class="word-mark">
+    <text x="25" y="75" class="letter" font-weight="700" fill="#2A2A2A">D</text>
+    <text x="45" y="75" class="letter" font-weight="700" fill="#2A2A2A">E</text>
+    <text x="70" y="75" class="letter" font-weight="700" fill="#2A2A2A">M</text>
+    <text x="95" y="75" class="letter" font-weight="700" fill="#2A2A2A">O</text>
+  </g>
+</svg>
+
+</div>
+
